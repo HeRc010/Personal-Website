@@ -2504,6 +2504,14 @@
 			width: 6.25em;
 		}
 
+		#header .icons {
+			margin: 1em 0 0 0;
+		}
+
+			#header .icons a {
+				color: rgba(255, 255, 255, 0.4);
+			}
+
 /* Footer */
 
 	#footer {
@@ -2931,6 +2939,10 @@
 						display: inline;
 					}
 
+				#header .icons {
+					margin: 0 0 1em 0;
+				}
+
 		/* Footer */
 
 			#footer {
@@ -2943,6 +2955,7 @@
 				bottom: auto;
 				left: auto;
 				padding: 4em 4em 6em 4em;
+				/*padding: 2em 2em 3em 2em;*/
 				position: relative;
 				text-align: center;
 				width: 100%;
