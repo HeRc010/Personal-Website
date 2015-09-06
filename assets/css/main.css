@@ -1585,7 +1585,8 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			/*color: #49bf9d !important;*/
+			color: #3b78ff !important;
 			text-decoration: none;
 		}
 
@@ -2047,6 +2048,7 @@
 		.image img {
 			border-radius: 0.35em;
 			display: block;
+			max-height: 250px;
 		}
 
 		.image.left {
@@ -2452,7 +2454,6 @@
 
 		.work-item img {
 			max-width: auto;
-			max-height: 250px;
 		}
 
 		.work-item h3 {
